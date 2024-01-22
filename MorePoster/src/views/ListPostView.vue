@@ -36,7 +36,7 @@ const deletePost = (post_id: number):void => {
 }
 
 const toPost = (post_id: number):void  => {
-  router.push({path: `/list-posts/post/${post_id}`, params: {id: post_id}})
+  router.push({name: `post`, params: {id: post_id}})
 }
 </script>
 
